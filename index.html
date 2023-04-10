@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalaze.css">
     <title>Центр автопокраски</title>
@@ -14,90 +17,87 @@
     <div class="wrapper">
         <header class="header">
             <div class="container header__container">
-                <a href="index.html" class="logo">
-                    <img src="img/Vector.png" alt="logo" class="logo__img">
+                <a href="#!" class="logo">
+                    <img src="img/3 1.png" alt="logo" class="logo__img">
                 </a>
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item active">
-                            <a href="#!">Главная</a>
+                            <a href="#!" class="nav__link">Главная</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#!"> Услуги</a>
+                            <a href="#!" class="nav__link"> Услуги</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#!">Примеры работ</a>
+                            <a href="#!" class="nav__link">Примеры работ</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#!">Контакты</a>
+                            <a href="#!" class="nav__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
-                <address class="header__navigation">
-                    <img src="img/Иконка 3.png" alt="" class="navigation-pic">
+                <address class="geoposition">
+                    <a href="https://yandex.ru/maps/213/moscow/house/leningradskoye_shosse_29_35/Z04Ycg9nS00GQFtvfXRycXxgbA==/?indoorLevel=1&ll=37.487280%2C55.830038&z=17"
+                        class="geo">
+                        Москва, Ленинградское шоссе 29-35
+                    </a>
+                    <a href="tel:+79017041344" class="phone">
+                        +7 (901) 704-13-44
+                    </a>
                 </address>
-                <div class="navigation__text">
-                    Москва, Ленинградское шоссе 29-35
-                </div>
             </div>
-            <a class="header__number">
-                +7 (901) 704-13-44
-            </a>
-    </div>
-    </header>
-    <main class="main">
-        <section class="hero">
-            <div class="hero__content">
-                <div class="hero__info">
-                    <h1 class="hero__title">
-                        Кузовной ремонт <br>
-                        любой сложности
-                    </h1>
-                    <div class="hero__subtitle">
-                        на Ленинградском шоссе в Москве
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container hero__headline">
+                    <div class="hero__info">
+                        <h1 class="title">
+                            Кузовной ремонт <br>
+                            любой сложности
+                        </h1>
+                        <div class="subtitle">
+                            на Ленинградском шоссе в Москве
+                        </div>
+                        <div class="hero__buttons">
+                            <button class="btn">Оставить заявку</button>
+                            <button class="btn">Оценить стоимоть ремонта по фото</button>
+                        </div>
+                        <div class="sale">
+                            Оставляйте заявку сейчас и получите <span class="sale__element">10 % скидку</span> на
+                            покраску
+                        </div>
                     </div>
-                    <div class="hero__buttons">
-                        <button class="btn">Оставить заявку</button>
-                        <button class="btn">Оценить стоимоть ремонта по фото</button>
-                    </div>
-                    <div class="hero__text">
-                        Оставляйте заявку сейчас и получите <span class="hero__text-skidka">10 % скидку</span> на
-                        покраску
-                    </div>
-                </div>
-                <div class="hero__nav">
-                    <ul class="hero__list">
-                        <li class="hero__item">
-                            <div class="hero__img--wrap">
+                    <ul class="advantages">
+                        <li class="advantage">
+                            <div class="advantage__pic">
                                 <img src="img/Иконка.png" alt="" class="hero__img">
                             </div>
-                            <div class="hero__text">
+                            <div class="advantage__text">
                                 Гарантия 1 год
                             </div>
                         </li>
-                        <li class="hero__item">
-                            <div class="hero__img--wrap">
+                        <li class="advantage">
+                            <div class="advantage__pic">
                                 <img src="img/Иконка 2.png" alt="" class="hero__img">
                             </div>
-                            <div class="hero__text">
+                            <div class="advantage__text">
                                 Делаем как для себя:
                                 качественно и без переплат
                             </div>
                         </li>
-                        <li class="hero__item">
-                            <div class="hero__img--wrap">
+                        <li class="advantage">
+                            <div class="advantage__pic">
                                 <img src="img/Иконка 3.png" alt="" class="hero__img">
                             </div>
-                            <div class="hero__text">
+                            <div class="advantage__text">
                                 Салон расположен
                                 в пределах МКАД
                             </div>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
     </div>
 
 </body>
